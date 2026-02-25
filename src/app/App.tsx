@@ -236,7 +236,7 @@ function App() {
         onVideoEnabledChange={setVideoEnabled}
         overlayOpacity={overlayOpacity}
         onOverlayOpacityChange={setOverlayOpacity}
-        animationsEnabled={false}
+        animationsEnabled={animationsEnabled}
         onAnimationsEnabledChange={setAnimationsEnabled}
         onVideoUpload={handleVideoUpload}
       />
