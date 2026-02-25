@@ -130,7 +130,6 @@ function App() {
       />
 
       {/* Floating 3D Shapes */}
-      {animationsEnabled && <FloatingShapes />}
 
       {/* Settings Button */}
       <motion.button
