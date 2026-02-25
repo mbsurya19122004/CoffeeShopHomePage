@@ -41,7 +41,7 @@ export function ShortcutCard({ id, title, url, accentColor, onEdit, onDelete }: 
 
   const handleClick = () => {
     if (!isEditing) {
-      window.open(url, '_blank');
+      window.location.href = url;
     }
   };
 
